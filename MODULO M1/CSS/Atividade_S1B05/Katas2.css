@@ -1,0 +1,45 @@
+body{
+    background-color: brown;
+    margin: 0;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+   font-family: cursive;
+}
+
+div{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 10px solid white;
+    width: 250px;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+figcaption{
+    border-top: solid white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    bottom: 0;
+   position: relative;
+}

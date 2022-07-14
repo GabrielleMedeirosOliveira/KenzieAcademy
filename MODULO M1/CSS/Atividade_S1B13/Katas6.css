@@ -1,0 +1,18 @@
+td{
+	padding: auto;
+}
+table{
+	text-align: center;
+	width: 50%;	
+	border-collapse: collapse;
+	margin: auto;
+	min-width: 300px;
+	margin-top: 50px;
+	border: 2px solid black;
+}
+.impar{
+	background-color: #ccc;
+}
+.nome{
+	text-align: left;
+}

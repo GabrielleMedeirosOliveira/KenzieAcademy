@@ -1,0 +1,51 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(#a8c0ff, #3f2b96);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+td{
+    text-align: center;
+    border: 2px solid white;
+    width: 110px;
+    height: 110px;
+    color: white;
+    font-size: 45px;
+}
+
+td:hover{
+    background-color: #c83d38;
+}
+
+button{
+    background-color: #e75170;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}

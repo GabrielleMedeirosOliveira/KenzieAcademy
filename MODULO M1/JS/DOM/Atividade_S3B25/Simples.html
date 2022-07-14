@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id="menu"></main>
+
+    <script>
+        //Paragrafo:
+        const tagP = document.createElement('p')
+        tagP.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eius minus! Cumque, recusandae! Quibusdam expedita ducimus, repudiandae ad numquam consequuntur deserunt ab impedit adipisci odio aliquid! Nulla odio cumque sapiente"
+        const main = document.getElementById('menu')
+        menu.appendChild(tagP)
+
+        //Lista não ordenada:
+        const tagLista =  document.createElement('ul')
+        tagLista.innerText = "Lista Não Ordenada:"
+        menu.appendChild(tagLista)
+        const list1 = document.createElement('li')
+        list1.innerText = 'Teste1'
+        tagLista.appendChild(list1)
+        const list2  = document.createElement('li')
+        list2.innerText = 'Teste2'
+        tagLista.appendChild(list2)
+        const list3  = document.createElement('li')
+        list3.innerText = 'Teste2'
+        tagLista.appendChild(list3)
+
+        //Link:
+        const link = document.createElement('a')
+        link.innerText = 'https://alunos.kenzie.com.br/courses/83/assignments/16685?module_item_id=18778'
+        menu.appendChild(link)
+
+        //Imagem:
+        const img =  document.createElement('figure')
+        img.innerText = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fimagem-de-fundo&psig=AOvVaw19F1O4ig2DAexS04TGdm_N&ust=1647020933344000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLD01Z6NvPYCFQAAAAAdAAAAABAD'
+        menu.appendChild(img)
+
+
+    </script>
+</body>
+</html>

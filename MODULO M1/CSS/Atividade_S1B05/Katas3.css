@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(#f3dfed, #f1f5f2);
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    font-size: large;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+
+a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+    flex-wrap: wrap;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.ladoesquerdo{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 15%;
+    height: 70vh;
+    background-color: #c4c4c4;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(#f3dfed, #f1f5f2);
+    width: 70%;
+    height: 70vh;
+    
+}
+
+.ladodireito{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 15%;
+    height: 70vh;
+    background-color: #c4c4c4;
+}
+
+h3, p{
+    margin: 15px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}

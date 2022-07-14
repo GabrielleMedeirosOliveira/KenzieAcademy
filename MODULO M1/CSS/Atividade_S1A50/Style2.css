@@ -1,0 +1,18 @@
+p {
+    color: red;
+  }
+   h1 {
+    color: red;
+  }
+  
+  .colortext {
+    color: blue;
+  }
+  
+  #para1{
+    color: green;
+  }
+  
+  p{
+    font-size: 20px;
+  }

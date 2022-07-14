@@ -1,0 +1,8 @@
+li {
+    display: inline;
+    border-bottom: medium double black;
+    box-shadow: 10px 10px 5px grey;
+    font-size: 3em;
+    list-style: none;
+    margin: 10px;
+   }

@@ -1,0 +1,12 @@
+/* selected link */
+a {
+    background-color:yellow;
+  }
+  
+  p.highlight:hover {
+    background-color: lightblue;
+  }
+  
+  p:first-child {
+    background-color: red;
+  }

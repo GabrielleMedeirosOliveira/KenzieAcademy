@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(37, 91, 190);
+    color: white;
+    width: 100px;
+    height: 40px;
+    box-shadow: 5px 8px 8px 8px rgba(0,0,0,0.75);
+}
+
+a:hover{
+    background-color: brown;
+}
+

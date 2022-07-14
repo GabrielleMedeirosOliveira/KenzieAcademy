@@ -1,0 +1,12 @@
+div{
+    height: 150px;
+    background-color: rgb(57,139,222);
+    padding: 1px;
+    margin: 30px;
+
+    border: 5px dashed white;
+    border-radius: 35px;
+    outline: 10px solid rgb(57,139,222);
+    box-shadow: 15px 10px 20px #716972;
+    
+}

@@ -1,0 +1,38 @@
+.kata1{
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.kata2{
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.kata3{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 0px 0px 150px 150px;
+}
+
+.kata4{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 40px 100px 40px 400px;
+}
+
+.kata5{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 1500px 0px 1500px 0px;
+}

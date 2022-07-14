@@ -1,0 +1,29 @@
+ul {
+    list-style-type:square;
+  }
+  
+  ol {
+    list-style-type:upper-roman;
+  }
+  
+  li {
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  #example{
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+  }
+  
+  #excited{
+    font-size: 20px;
+    font-weight:bold;
+    color: green;
+  }
+
+  h1{
+      color: blue;
+  }
+

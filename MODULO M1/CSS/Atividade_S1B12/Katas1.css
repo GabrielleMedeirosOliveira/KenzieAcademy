@@ -1,0 +1,17 @@
+.lado-direito{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+    background-color: #90ee90;
+    width: 50%;
+}
+
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    align-items: center;
+    background-color:#d3d3d3;
+    width: 50%;
+}

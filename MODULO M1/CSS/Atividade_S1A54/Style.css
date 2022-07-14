@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+}
+
+
+.huguinho{
+    width: 300px;
+    height: 300px;
+    background-color: #0F7093;
+    margin: 20px;
+}
+
+.luizinho{
+    width: 300px;
+    height: 300px;
+    background-color: #3C0F93;
+    margin: 20px;
+}
+
+.zezinho{
+    width: 300px;
+    height: 300px;
+    background-color: #8E0F93;
+    margin: 20px;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(204,204,204);
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: rgb(106,190,210);
+    height: 70px;
+    width: 100%;
+}
+
+a{
+    color: white; 
+    margin-left: 32px;
+}
+
+.titulo{
+    color: white; 
+    font-size: 25px;
+    flex: 0.5;
+}

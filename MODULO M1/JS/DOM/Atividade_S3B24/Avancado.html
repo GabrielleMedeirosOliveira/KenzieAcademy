@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eu funciono</h1>
+    <article></article>
+
+    <script>
+        const tagh1 =  document.createElement('h1')
+        tagh1.innerText = "Titulo do Post"
+        const article =  document.querySelector('article')
+        article.appendChild(tagh1)
+        const tagP =  document.createElement('p')
+        tagP.innerText = "Descrição do Post"
+        article.appendChild(tagP)
+        const tagA = document.createElement('a')
+        tagA.innerText = "Ver post completo"
+        article.appendChild(tagA)
+    </script>
+
+</body>
+</html>
